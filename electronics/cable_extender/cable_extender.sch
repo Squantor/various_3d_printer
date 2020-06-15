@@ -18,7 +18,7 @@ L SquantorLabels:VYYYYMMDD N1
 U 1 1 5EE12BF3
 P 1050 7450
 F 0 "N1" H 1000 7550 60  0000 L CNN
-F 1 "20200610" H 800 7450 60  0000 L CNN
+F 1 "20200615" H 800 7450 60  0000 L CNN
 F 2 "SquantorLabels:Label_Generic" H 1050 7450 60  0001 C CNN
 F 3 "" H 1050 7450 60  0001 C CNN
 	1    1050 7450
@@ -47,23 +47,13 @@ Wire Notes Line
 	1400 7000 600  7000
 Wire Notes Line
 	600  7550 1400 7550
-Text Label 1600 1850 0    50   ~ 0
-PIN_04
-Text Label 1600 1750 0    50   ~ 0
-PIN_05
-Text Label 1600 1650 0    50   ~ 0
-PIN_06
-Text Label 1600 1550 0    50   ~ 0
-PIN_07
-Text Label 1600 1450 0    50   ~ 0
-PIN_08
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J2
 U 1 1 5EE7FFB1
 P 1350 1650
-F 0 "J?" H 1350 1250 50  0000 C CNN
+F 0 "J2" H 1350 1250 50  0000 C CNN
 F 1 "Conn_01x06" V 1450 1600 50  0000 C CNN
-F 2 "" H 1350 1650 50  0001 C CNN
+F 2 "SquantorConnectors:hole_row-0508-1X06-H015-ELONG" H 1350 1650 50  0001 C CNN
 F 3 "~" H 1350 1650 50  0001 C CNN
 	1    1350 1650
 	-1   0    0    1   
@@ -79,27 +69,25 @@ Wire Wire Line
 Wire Wire Line
 	1550 1850 1900 1850
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J3
 U 1 1 5EE82071
 P 2100 1650
-F 0 "J?" H 2100 1250 50  0000 C CNN
+F 0 "J3" H 2100 1250 50  0000 C CNN
 F 1 "Conn_01x06" V 2200 1650 50  0000 C CNN
-F 2 "" H 2100 1650 50  0001 C CNN
+F 2 "SquantorConnectors:hole_row-0508-1X06-H015-ELONG" H 2100 1650 50  0001 C CNN
 F 3 "~" H 2100 1650 50  0001 C CNN
 	1    2100 1650
 	1    0    0    1   
 $EndComp
-Text Label 1600 1350 0    50   ~ 0
-PIN_09
 Wire Wire Line
 	1550 1350 1900 1350
 $Comp
-L Connector_Generic:Conn_01x11 J?
+L Connector_Generic:Conn_01x11 J1
 U 1 1 5EE87913
 P 650 1650
-F 0 "J?" H 650 1050 50  0000 C CNN
+F 0 "J1" H 650 1050 50  0000 C CNN
 F 1 "Conn_01x11" V 750 1650 50  0000 C CNN
-F 2 "" H 650 1650 50  0001 C CNN
+F 2 "SquantorConnectors:hole_row-0254-1X11-H010-ELONG" H 650 1650 50  0001 C CNN
 F 3 "~" H 650 1650 50  0001 C CNN
 	1    650  1650
 	-1   0    0    1   
@@ -149,12 +137,12 @@ Wire Wire Line
 Wire Wire Line
 	850  2150 900  2150
 $Comp
-L Connector_Generic:Conn_01x11 J?
+L Connector_Generic:Conn_01x11 J4
 U 1 1 5EE8F5C8
 P 2800 1650
-F 0 "J?" H 2800 1050 50  0000 C CNN
+F 0 "J4" H 2800 1050 50  0000 C CNN
 F 1 "Conn_01x11" V 2900 1650 50  0000 C CNN
-F 2 "" H 2800 1650 50  0001 C CNN
+F 2 "SquantorConnectors:hole_row-0254-1X11-H010-ELONG" H 2800 1650 50  0001 C CNN
 F 3 "~" H 2800 1650 50  0001 C CNN
 	1    2800 1650
 	1    0    0    1   
@@ -203,4 +191,16 @@ Wire Wire Line
 	2550 2050 2600 2050
 Wire Wire Line
 	2600 2150 2550 2150
+Text Label 1600 1850 0    50   ~ 0
+PIN_01
+Text Label 1600 1750 0    50   ~ 0
+PIN_03
+Text Label 1600 1650 0    50   ~ 0
+PIN_05
+Text Label 1600 1550 0    50   ~ 0
+PIN_07
+Text Label 1600 1450 0    50   ~ 0
+PIN_09
+Text Label 1600 1350 0    50   ~ 0
+PIN_11
 $EndSCHEMATC
