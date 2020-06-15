@@ -1,8 +1,6 @@
 # Z switch combiner
 Simple circuit combining two Z switches, like that of your 3d printer with the bltouch endstop. Can be useful at times.
 ## TODO's
-* schematic entry 
-* PCB layout
 * Review with one night in between
 * Produce at [OSHPARK](https://oshpark.com/)
 * Assemble
