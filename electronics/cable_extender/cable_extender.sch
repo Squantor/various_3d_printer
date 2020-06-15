@@ -47,4 +47,58 @@ Wire Notes Line
 	1400 7000 600  7000
 Wire Notes Line
 	600  7550 1400 7550
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 5EE7D502
+P 950 1450
+F 0 "J?" H 868 825 50  0000 C CNN
+F 1 "Conn_01x08" H 868 916 50  0000 C CNN
+F 2 "" H 950 1450 50  0001 C CNN
+F 3 "~" H 950 1450 50  0001 C CNN
+	1    950  1450
+	-1   0    0    1   
+$EndComp
+Text Label 1200 1750 0    50   ~ 0
+PIN_01
+Text Label 1200 1650 0    50   ~ 0
+PIN_02
+Text Label 1200 1550 0    50   ~ 0
+PIN_03
+Text Label 1200 1450 0    50   ~ 0
+PIN_04
+Text Label 1200 1350 0    50   ~ 0
+PIN_05
+Text Label 1200 1250 0    50   ~ 0
+PIN_06
+Text Label 1200 1150 0    50   ~ 0
+PIN_07
+Text Label 1200 1050 0    50   ~ 0
+PIN_08
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 5EE7E83D
+P 1700 1450
+F 0 "J?" H 1618 825 50  0000 C CNN
+F 1 "Conn_01x08" H 1618 916 50  0000 C CNN
+F 2 "" H 1700 1450 50  0001 C CNN
+F 3 "~" H 1700 1450 50  0001 C CNN
+	1    1700 1450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1150 1050 1500 1050
+Wire Wire Line
+	1500 1150 1150 1150
+Wire Wire Line
+	1150 1250 1500 1250
+Wire Wire Line
+	1500 1350 1150 1350
+Wire Wire Line
+	1150 1450 1500 1450
+Wire Wire Line
+	1500 1550 1150 1550
+Wire Wire Line
+	1150 1650 1500 1650
+Wire Wire Line
+	1500 1750 1150 1750
 $EndSCHEMATC
