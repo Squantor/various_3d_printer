@@ -50,157 +50,298 @@ Wire Notes Line
 $Comp
 L Connector_Generic:Conn_01x06 J2
 U 1 1 5EE7FFB1
-P 1350 1650
-F 0 "J2" H 1350 1250 50  0000 C CNN
-F 1 "Conn_01x06" V 1450 1600 50  0000 C CNN
-F 2 "SquantorConnectors:hole_row-0508-1X06-H015-ELONG" H 1350 1650 50  0001 C CNN
-F 3 "~" H 1350 1650 50  0001 C CNN
-	1    1350 1650
+P 2700 1600
+F 0 "J2" H 2700 1200 50  0000 C CNN
+F 1 "Conn_01x06" V 2800 1550 50  0000 C CNN
+F 2 "SquantorConnectors:hole_row-0508-1X06-H015-ELONG" H 2700 1600 50  0001 C CNN
+F 3 "~" H 2700 1600 50  0001 C CNN
+	1    2700 1600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1550 1450 1900 1450
+	2900 1400 3250 1400
 Wire Wire Line
-	1900 1550 1550 1550
+	3250 1500 2900 1500
 Wire Wire Line
-	1550 1650 1900 1650
+	2900 1600 3250 1600
 Wire Wire Line
-	1900 1750 1550 1750
+	3250 1700 2900 1700
 Wire Wire Line
-	1550 1850 1900 1850
+	2900 1800 3250 1800
 $Comp
 L Connector_Generic:Conn_01x06 J3
 U 1 1 5EE82071
-P 2100 1650
-F 0 "J3" H 2100 1250 50  0000 C CNN
-F 1 "Conn_01x06" V 2200 1650 50  0000 C CNN
-F 2 "SquantorConnectors:hole_row-0508-1X06-H015-ELONG" H 2100 1650 50  0001 C CNN
-F 3 "~" H 2100 1650 50  0001 C CNN
-	1    2100 1650
+P 3450 1600
+F 0 "J3" H 3450 1200 50  0000 C CNN
+F 1 "Conn_01x06" V 3550 1600 50  0000 C CNN
+F 2 "SquantorConnectors:hole_row-0508-1X06-H015-ELONG" H 3450 1600 50  0001 C CNN
+F 3 "~" H 3450 1600 50  0001 C CNN
+	1    3450 1600
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	1550 1350 1900 1350
+	2900 1300 3250 1300
 $Comp
 L Connector_Generic:Conn_01x11 J1
 U 1 1 5EE87913
-P 650 1650
-F 0 "J1" H 650 1050 50  0000 C CNN
-F 1 "Conn_01x11" V 750 1650 50  0000 C CNN
-F 2 "SquantorConnectors:hole_row-0254-1X11-H010-ELONG" H 650 1650 50  0001 C CNN
-F 3 "~" H 650 1650 50  0001 C CNN
-	1    650  1650
+P 2000 1600
+F 0 "J1" H 2000 1000 50  0000 C CNN
+F 1 "Conn_01x11" V 2100 1600 50  0000 C CNN
+F 2 "SquantorConnectors:hole_row-0254-1X11-H010-ELONG" H 2000 1600 50  0001 C CNN
+F 3 "~" H 2000 1600 50  0001 C CNN
+	1    2000 1600
 	-1   0    0    1   
 $EndComp
-Text Label 900  2150 0    50   ~ 0
+Text Label 2250 2100 0    50   ~ 0
 PIN_01
-Text Label 900  2050 0    50   ~ 0
+Text Label 2250 2000 0    50   ~ 0
 PIN_02
-Text Label 900  1950 0    50   ~ 0
+Text Label 2250 1900 0    50   ~ 0
 PIN_03
-Text Label 900  1850 0    50   ~ 0
+Text Label 2250 1800 0    50   ~ 0
 PIN_04
-Text Label 900  1750 0    50   ~ 0
+Text Label 2250 1700 0    50   ~ 0
 PIN_05
-Text Label 900  1650 0    50   ~ 0
+Text Label 2250 1600 0    50   ~ 0
 PIN_06
-Text Label 900  1550 0    50   ~ 0
+Text Label 2250 1500 0    50   ~ 0
 PIN_07
-Text Label 900  1450 0    50   ~ 0
+Text Label 2250 1400 0    50   ~ 0
 PIN_08
-Text Label 900  1350 0    50   ~ 0
+Text Label 2250 1300 0    50   ~ 0
 PIN_09
-Text Label 900  1250 0    50   ~ 0
+Text Label 2250 1200 0    50   ~ 0
 PIN_10
-Text Label 900  1150 0    50   ~ 0
+Text Label 2250 1100 0    50   ~ 0
 PIN_11
 Wire Wire Line
-	900  1250 850  1250
+	2250 1200 2200 1200
 Wire Wire Line
-	850  1150 900  1150
+	2200 1100 2250 1100
 Wire Wire Line
-	850  1350 900  1350
+	2200 1300 2250 1300
 Wire Wire Line
-	900  1450 850  1450
+	2250 1400 2200 1400
 Wire Wire Line
-	850  1550 900  1550
+	2200 1500 2250 1500
 Wire Wire Line
-	900  1650 850  1650
+	2250 1600 2200 1600
 Wire Wire Line
-	850  1750 900  1750
+	2200 1700 2250 1700
 Wire Wire Line
-	900  1850 850  1850
+	2250 1800 2200 1800
 Wire Wire Line
-	850  1950 900  1950
+	2200 1900 2250 1900
 Wire Wire Line
-	900  2050 850  2050
+	2250 2000 2200 2000
 Wire Wire Line
-	850  2150 900  2150
+	2200 2100 2250 2100
 $Comp
 L Connector_Generic:Conn_01x11 J4
 U 1 1 5EE8F5C8
-P 2800 1650
-F 0 "J4" H 2800 1050 50  0000 C CNN
-F 1 "Conn_01x11" V 2900 1650 50  0000 C CNN
-F 2 "SquantorConnectors:hole_row-0254-1X11-H010-ELONG" H 2800 1650 50  0001 C CNN
-F 3 "~" H 2800 1650 50  0001 C CNN
-	1    2800 1650
+P 4150 1600
+F 0 "J4" H 4150 1000 50  0000 C CNN
+F 1 "Conn_01x11" V 4250 1600 50  0000 C CNN
+F 2 "SquantorConnectors:hole_row-0254-1X11-H010-ELONG" H 4150 1600 50  0001 C CNN
+F 3 "~" H 4150 1600 50  0001 C CNN
+	1    4150 1600
 	1    0    0    1   
 $EndComp
-Text Label 2550 2150 2    50   ~ 0
+Text Label 3900 2100 2    50   ~ 0
 PIN_01
-Text Label 2550 2050 2    50   ~ 0
+Text Label 3900 2000 2    50   ~ 0
 PIN_02
-Text Label 2550 1950 2    50   ~ 0
+Text Label 3900 1900 2    50   ~ 0
 PIN_03
-Text Label 2550 1850 2    50   ~ 0
+Text Label 3900 1800 2    50   ~ 0
 PIN_04
-Text Label 2550 1750 2    50   ~ 0
+Text Label 3900 1700 2    50   ~ 0
 PIN_05
-Text Label 2550 1650 2    50   ~ 0
+Text Label 3900 1600 2    50   ~ 0
 PIN_06
-Text Label 2550 1550 2    50   ~ 0
+Text Label 3900 1500 2    50   ~ 0
 PIN_07
-Text Label 2550 1450 2    50   ~ 0
+Text Label 3900 1400 2    50   ~ 0
 PIN_08
-Text Label 2550 1350 2    50   ~ 0
+Text Label 3900 1300 2    50   ~ 0
 PIN_09
-Text Label 2550 1250 2    50   ~ 0
+Text Label 3900 1200 2    50   ~ 0
 PIN_10
-Text Label 2550 1150 2    50   ~ 0
+Text Label 3900 1100 2    50   ~ 0
 PIN_11
 Wire Wire Line
-	2550 1250 2600 1250
+	3900 1200 3950 1200
 Wire Wire Line
-	2600 1150 2550 1150
+	3950 1100 3900 1100
 Wire Wire Line
-	2600 1350 2550 1350
+	3950 1300 3900 1300
 Wire Wire Line
-	2550 1450 2600 1450
+	3900 1400 3950 1400
 Wire Wire Line
-	2600 1550 2550 1550
+	3950 1500 3900 1500
 Wire Wire Line
-	2550 1650 2600 1650
+	3900 1600 3950 1600
 Wire Wire Line
-	2600 1750 2550 1750
+	3950 1700 3900 1700
 Wire Wire Line
-	2550 1850 2600 1850
+	3900 1800 3950 1800
 Wire Wire Line
-	2600 1950 2550 1950
+	3950 1900 3900 1900
 Wire Wire Line
-	2550 2050 2600 2050
+	3900 2000 3950 2000
 Wire Wire Line
-	2600 2150 2550 2150
-Text Label 1600 1850 0    50   ~ 0
+	3950 2100 3900 2100
+Text Label 2950 1800 0    50   ~ 0
 PIN_01
-Text Label 1600 1750 0    50   ~ 0
+Text Label 2950 1700 0    50   ~ 0
 PIN_03
-Text Label 1600 1650 0    50   ~ 0
+Text Label 2950 1600 0    50   ~ 0
 PIN_05
-Text Label 1600 1550 0    50   ~ 0
+Text Label 2950 1500 0    50   ~ 0
 PIN_07
-Text Label 1600 1450 0    50   ~ 0
+Text Label 2950 1400 0    50   ~ 0
 PIN_09
-Text Label 1600 1350 0    50   ~ 0
+Text Label 2950 1300 0    50   ~ 0
 PIN_11
+$Comp
+L Connector_Generic:Conn_01x11 J5
+U 1 1 5EEA521E
+P 1350 1600
+F 0 "J5" H 1350 1000 50  0000 C CNN
+F 1 "Conn_01x11" V 1450 1600 50  0000 C CNN
+F 2 "SquantorConnectors:hole_row-0250-1X11-H010-ELONG" H 1350 1600 50  0001 C CNN
+F 3 "~" H 1350 1600 50  0001 C CNN
+	1    1350 1600
+	-1   0    0    1   
+$EndComp
+Text Label 1600 2100 0    50   ~ 0
+PIN_01
+Text Label 1600 2000 0    50   ~ 0
+PIN_02
+Text Label 1600 1900 0    50   ~ 0
+PIN_03
+Text Label 1600 1800 0    50   ~ 0
+PIN_04
+Text Label 1600 1700 0    50   ~ 0
+PIN_05
+Text Label 1600 1600 0    50   ~ 0
+PIN_06
+Text Label 1600 1500 0    50   ~ 0
+PIN_07
+Text Label 1600 1400 0    50   ~ 0
+PIN_08
+Text Label 1600 1300 0    50   ~ 0
+PIN_09
+Text Label 1600 1200 0    50   ~ 0
+PIN_10
+Text Label 1600 1100 0    50   ~ 0
+PIN_11
+Wire Wire Line
+	1600 1200 1550 1200
+Wire Wire Line
+	1550 1100 1600 1100
+Wire Wire Line
+	1550 1300 1600 1300
+Wire Wire Line
+	1600 1400 1550 1400
+Wire Wire Line
+	1550 1500 1600 1500
+Wire Wire Line
+	1600 1600 1550 1600
+Wire Wire Line
+	1550 1700 1600 1700
+Wire Wire Line
+	1600 1800 1550 1800
+Wire Wire Line
+	1550 1900 1600 1900
+Wire Wire Line
+	1600 2000 1550 2000
+Wire Wire Line
+	1550 2100 1600 2100
+$Comp
+L Connector_Generic:Conn_01x11 J6
+U 1 1 5EEA94DF
+P 4800 1600
+F 0 "J6" H 4800 1000 50  0000 C CNN
+F 1 "Conn_01x11" V 4900 1600 50  0000 C CNN
+F 2 "SquantorConnectors:hole_row-0250-1X11-H010-ELONG" H 4800 1600 50  0001 C CNN
+F 3 "~" H 4800 1600 50  0001 C CNN
+	1    4800 1600
+	1    0    0    1   
+$EndComp
+Text Label 4550 2100 2    50   ~ 0
+PIN_01
+Text Label 4550 2000 2    50   ~ 0
+PIN_02
+Text Label 4550 1900 2    50   ~ 0
+PIN_03
+Text Label 4550 1800 2    50   ~ 0
+PIN_04
+Text Label 4550 1700 2    50   ~ 0
+PIN_05
+Text Label 4550 1600 2    50   ~ 0
+PIN_06
+Text Label 4550 1500 2    50   ~ 0
+PIN_07
+Text Label 4550 1400 2    50   ~ 0
+PIN_08
+Text Label 4550 1300 2    50   ~ 0
+PIN_09
+Text Label 4550 1200 2    50   ~ 0
+PIN_10
+Text Label 4550 1100 2    50   ~ 0
+PIN_11
+Wire Wire Line
+	4550 1200 4600 1200
+Wire Wire Line
+	4600 1100 4550 1100
+Wire Wire Line
+	4600 1300 4550 1300
+Wire Wire Line
+	4550 1400 4600 1400
+Wire Wire Line
+	4600 1500 4550 1500
+Wire Wire Line
+	4550 1600 4600 1600
+Wire Wire Line
+	4600 1700 4550 1700
+Wire Wire Line
+	4550 1800 4600 1800
+Wire Wire Line
+	4600 1900 4550 1900
+Wire Wire Line
+	4550 2000 4600 2000
+Wire Wire Line
+	4600 2100 4550 2100
+$Comp
+L power:GND #PWR0101
+U 1 1 5EEAFEEF
+P 900 2600
+F 0 "#PWR0101" H 900 2350 50  0001 C CNN
+F 1 "GND" H 905 2427 50  0000 C CNN
+F 2 "" H 900 2600 50  0001 C CNN
+F 3 "" H 900 2600 50  0001 C CNN
+	1    900  2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2600 900  2550
+Wire Wire Line
+	900  2550 950  2550
+Text Label 950  2550 0    50   ~ 0
+GND
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EEB20A9
+P 900 2500
+F 0 "#FLG0101" H 900 2575 50  0001 C CNN
+F 1 "PWR_FLAG" H 900 2673 50  0000 C CNN
+F 2 "" H 900 2500 50  0001 C CNN
+F 3 "~" H 900 2500 50  0001 C CNN
+	1    900  2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2500 900  2550
+Connection ~ 900  2550
 $EndSCHEMATC
