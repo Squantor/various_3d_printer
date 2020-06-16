@@ -13,28 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L SquantorLabels:VYYYYMMDD N1
-U 1 1 5EE12BF3
-P 1050 7450
-F 0 "N1" H 1000 7550 60  0000 L CNN
-F 1 "20200615" H 800 7450 60  0000 L CNN
-F 2 "SquantorLabels:Label_Generic" H 1050 7450 60  0001 C CNN
-F 3 "" H 1050 7450 60  0001 C CNN
-	1    1050 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L SquantorLabels:OHWLOGO N2
-U 1 1 5EE13678
-P 800 7150
-F 0 "N2" H 928 7203 60  0000 L CNN
-F 1 "OHWLOGO" H 928 7097 60  0000 L CNN
-F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 800 7150 60  0001 C CNN
-F 3 "" H 800 7150 60  0001 C CNN
-	1    800  7150
-	1    0    0    -1  
-$EndComp
 Text Notes 650  7650 0    50   ~ 0
 Logos and version
 Wire Notes Line
@@ -442,4 +420,19 @@ Wire Wire Line
 	950  3200 1000 3200
 Wire Wire Line
 	1000 3300 950  3300
+Text Notes 650  7200 0    50   ~ 0
+Removed.\nNot enough space
+$Comp
+L SquantorProto:testpad TP?
+U 1 1 5EE9DF4A
+P 1000 1800
+F 0 "TP?" H 1000 1700 50  0000 C CNN
+F 1 "testpad" H 1000 1900 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 1800 50  0001 C CNN
+F 3 "" H 1000 1800 50  0001 C CNN
+	1    1000 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1150 1800 1200 1800
 $EndSCHEMATC
