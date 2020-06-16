@@ -341,7 +341,7 @@
     (at 199.4 91.2)
     (tags "generic hole row")
     (path /5EE82071)
-    (fp_text reference J3 (at 0 -3.81) (layer F.SilkS)
+    (fp_text reference J3 (at 0 -3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x06 (at 0 3.81) (layer F.Fab)
@@ -585,7 +585,7 @@
   (segment (start 209.56 70.64) (end 209.56 69) (width 1.4) (layer B.Cu) (net 13))
   (segment (start 209.39 70.81) (end 209.56 70.64) (width 1.4) (layer B.Cu) (net 13))
 
-  (zone (net 14) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 14) (net_name GND) (layer F.Cu) (tstamp 5EE942C7) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2)
     (fill yes (arc_segments 32) (thermal_gap 0.2) (thermal_bridge_width 0.4))
