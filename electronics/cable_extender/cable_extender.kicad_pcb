@@ -167,7 +167,7 @@
   (module SquantorConnectors:hole_row-0200-1X13-H008-ELONG (layer F.Cu) (tedit 5EE7D23A) (tstamp 5EE92F8B)
     (at 199.39 80)
     (path /5EEBFDBE)
-    (fp_text reference J8 (at 0 -3) (layer F.SilkS)
+    (fp_text reference J8 (at 0 -3) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x13 (at 0 3) (layer F.Fab)
@@ -204,7 +204,7 @@
   (module SquantorConnectors:hole_row-0200-1X13-H008-ELONG (layer F.Cu) (tedit 5EE7D23A) (tstamp 5EE92FBB)
     (at 199.4 76.1)
     (path /5EEBAD14)
-    (fp_text reference J7 (at 0 -3) (layer F.SilkS)
+    (fp_text reference J7 (at 0 -3) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x13 (at 0 3) (layer F.Fab)
@@ -241,7 +241,7 @@
   (module SquantorConnectors:hole_row-0250-1X11-H010-ELONG (layer F.Cu) (tedit 5EE7CE54) (tstamp 5EE92F5F)
     (at 199.39 72.6)
     (path /5EEA521E)
-    (fp_text reference J5 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference J5 (at 0 -2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x11 (at 0 2.5) (layer F.Fab)
@@ -274,7 +274,7 @@
   (module SquantorConnectors:hole_row-0250-1X11-H010-ELONG (layer F.Cu) (tedit 5EE7CE54) (tstamp 5EE93004)
     (at 199.4 83.5)
     (path /5EEA94DF)
-    (fp_text reference J6 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference J6 (at 0 -2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x11 (at 0 2.5) (layer F.Fab)
@@ -307,7 +307,7 @@
   (module SquantorConnectors:hole_row-0254-1X11-H010-ELONG (layer F.Cu) (tedit 5EE7CAC7) (tstamp 5EE9302E)
     (at 199.4 87.1)
     (path /5EE8F5C8)
-    (fp_text reference J4 (at 0 -3.81) (layer F.SilkS)
+    (fp_text reference J4 (at 0 -3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x11 (at 0 3.81) (layer F.Fab)
@@ -365,7 +365,7 @@
     (at 199.4 64.9)
     (tags "generic hole row")
     (path /5EE7FFB1)
-    (fp_text reference J2 (at 0 -3.81) (layer F.SilkS)
+    (fp_text reference J2 (at -10.3 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x06 (at 0 3.81) (layer F.Fab)
@@ -388,7 +388,7 @@
   (module SquantorConnectors:hole_row-0254-1X11-H010-ELONG (layer F.Cu) (tedit 5EE7CAC7) (tstamp 5EE92F35)
     (at 199.4 69)
     (path /5EE87913)
-    (fp_text reference J1 (at 0 -3.81) (layer F.SilkS)
+    (fp_text reference J1 (at -5.3 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x11 (at 0 3.81) (layer F.Fab)
