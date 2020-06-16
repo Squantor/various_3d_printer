@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 5)
+    (drawings 4)
     (tracks 0)
     (zones 0)
     (modules 10)
@@ -148,7 +148,7 @@
     (add_net /PIN_13)
   )
 
-  (module SquantorConnectors:hole_row-0200-1X13-H008-ELONG (layer F.Cu) (tedit 5EE7D23A) (tstamp 5EE840EB)
+  (module SquantorConnectors:hole_row-0200-1X13-H008-ELONG (layer F.Cu) (tedit 5EE7D23A) (tstamp 5EE92F8B)
     (at 199.39 80)
     (path /5EEBFDBE)
     (fp_text reference J8 (at 0 -3) (layer F.SilkS)
@@ -185,7 +185,7 @@
       (net 11 /PIN_01))
   )
 
-  (module SquantorConnectors:hole_row-0200-1X13-H008-ELONG (layer F.Cu) (tedit 5EE7D23A) (tstamp 5EE840DA)
+  (module SquantorConnectors:hole_row-0200-1X13-H008-ELONG (layer F.Cu) (tedit 5EE7D23A) (tstamp 5EE92FBB)
     (at 199.4 76.1)
     (path /5EEBAD14)
     (fp_text reference J7 (at 0 -3) (layer F.SilkS)
@@ -222,7 +222,7 @@
       (net 11 /PIN_01))
   )
 
-  (module SquantorConnectors:hole_row-0250-1X11-H010-ELONG (layer F.Cu) (tedit 5EE7CE54) (tstamp 5EE833BF)
+  (module SquantorConnectors:hole_row-0250-1X11-H010-ELONG (layer F.Cu) (tedit 5EE7CE54) (tstamp 5EE92F5F)
     (at 199.39 72.6)
     (path /5EEA521E)
     (fp_text reference J5 (at 0 -2.5) (layer F.SilkS)
@@ -255,7 +255,7 @@
       (net 11 /PIN_01))
   )
 
-  (module SquantorConnectors:hole_row-0250-1X11-H010-ELONG (layer F.Cu) (tedit 5EE7CE54) (tstamp 5EE833CE)
+  (module SquantorConnectors:hole_row-0250-1X11-H010-ELONG (layer F.Cu) (tedit 5EE7CE54) (tstamp 5EE93004)
     (at 199.4 83.5)
     (path /5EEA94DF)
     (fp_text reference J6 (at 0 -2.5) (layer F.SilkS)
@@ -288,7 +288,7 @@
       (net 11 /PIN_01))
   )
 
-  (module SquantorConnectors:hole_row-0254-1X11-H010-ELONG (layer F.Cu) (tedit 5EE7CAC7) (tstamp 5EE82D7F)
+  (module SquantorConnectors:hole_row-0254-1X11-H010-ELONG (layer F.Cu) (tedit 5EE7CAC7) (tstamp 5EE9302E)
     (at 199.4 87.1)
     (path /5EE8F5C8)
     (fp_text reference J4 (at 0 -3.81) (layer F.SilkS)
@@ -321,7 +321,7 @@
       (net 11 /PIN_01))
   )
 
-  (module SquantorConnectors:hole_row-0508-1X06-H015-ELONG (layer F.Cu) (tedit 5EE7C91A) (tstamp 5EE82D70)
+  (module SquantorConnectors:hole_row-0508-1X06-H015-ELONG (layer F.Cu) (tedit 5EE7C91A) (tstamp 5EE93053)
     (at 199.4 91.2)
     (tags "generic hole row")
     (path /5EE82071)
@@ -345,7 +345,7 @@
       (net 11 /PIN_01))
   )
 
-  (module SquantorConnectors:hole_row-0508-1X06-H015-ELONG (layer F.Cu) (tedit 5EE7C91A) (tstamp 5EE82D66)
+  (module SquantorConnectors:hole_row-0508-1X06-H015-ELONG (layer F.Cu) (tedit 5EE7C91A) (tstamp 5EE92FE4)
     (at 199.4 64.9)
     (tags "generic hole row")
     (path /5EE7FFB1)
@@ -369,7 +369,7 @@
       (net 11 /PIN_01))
   )
 
-  (module SquantorConnectors:hole_row-0254-1X11-H010-ELONG (layer F.Cu) (tedit 5EE7CAC7) (tstamp 5EE82D5C)
+  (module SquantorConnectors:hole_row-0254-1X11-H010-ELONG (layer F.Cu) (tedit 5EE7CAC7) (tstamp 5EE92F35)
     (at 199.4 69)
     (path /5EE87913)
     (fp_text reference J1 (at 0 -3.81) (layer F.SilkS)
@@ -403,7 +403,7 @@
   )
 
   (module Symbol:OSHW-Symbol_6.7x6mm_SilkScreen (layer B.Cu) (tedit 0) (tstamp 5EE12086)
-    (at 159.75 76.805 180)
+    (at 183.95 101.605 180)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (path /5EE13678)
@@ -502,7 +502,7 @@
   )
 
   (module SquantorLabels:Label_Generic (layer B.Cu) (tedit 5D8A7D4C) (tstamp 5EE12051)
-    (at 160.35 80.705 180)
+    (at 184.55 105.505 180)
     (descr "Label for general purpose use")
     (tags Label)
     (path /5EE12BF3)
@@ -516,10 +516,9 @@
     (fp_line (start -0.5 -0.6) (end 0.5 -0.6) (layer B.SilkS) (width 0.15))
   )
 
-  (gr_line (start 144.78 95.885) (end 144.78 76.2) (layer Edge.Cuts) (width 0.05) (tstamp 5EE838CF))
-  (gr_line (start 175.26 95.885) (end 144.78 95.885) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 175.26 59.055) (end 175.26 95.885) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 144.78 59.055) (end 175.26 59.055) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 144.78 76.2) (end 144.78 59.055) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 185 62.2) (end 185 93.9) (layer Edge.Cuts) (width 0.05) (tstamp 5EE93065))
+  (gr_line (start 213.8 62.2) (end 185 62.2) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 213.8 93.9) (end 213.8 62.2) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 185 93.9) (end 213.8 93.9) (layer Edge.Cuts) (width 0.05))
 
 )
