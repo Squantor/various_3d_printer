@@ -423,12 +423,12 @@ Wire Wire Line
 Text Notes 650  7200 0    50   ~ 0
 Removed.\nNot enough space
 $Comp
-L SquantorProto:testpad TP?
+L SquantorProto:testpad TP1
 U 1 1 5EE9DF4A
 P 1000 1800
-F 0 "TP?" H 1000 1700 50  0000 C CNN
+F 0 "TP1" H 1000 1700 50  0000 C CNN
 F 1 "testpad" H 1000 1900 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1000 1800 50  0001 C CNN
+F 2 "SquantorTestPoints:TestPoint_Hole_D0.8mm" H 1000 1800 50  0001 C CNN
 F 3 "" H 1000 1800 50  0001 C CNN
 	1    1000 1800
 	-1   0    0    1   
