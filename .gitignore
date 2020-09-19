@@ -25,7 +25,14 @@ fp-info-cache
 # archives with gerbers
 *.zip
 
-#software related stuff
+# software related stuff
 *.log
 bin/
 build/
+
+# freecad intermediates
+*.FCStd1
+
+# freecad mesh outputs
+meshes/
+
