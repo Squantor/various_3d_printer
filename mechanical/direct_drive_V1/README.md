@@ -14,7 +14,7 @@ Cura settings:
 ## Thingiverse
 This design is up on [thingiverse](https://www.thingiverse.com/thing:4726352)
 ## Pictures
-![Direct drive mount Cura render](/images/speedddrive_herome5+bmg_render.jpg)
-![Direct drive mount Front photo](/images/speedddrive_herome5+bmg_front.jpg)
-![Direct drive mount Back photo](/images/speedddrive_herome5+bmg_back.jpg)
+![Direct drive mount Cura render](images/speedddrive_herome5+bmg_render.jpg)
+![Direct drive mount Front photo](images/speedddrive_herome5+bmg_front.jpg)
+![Direct drive mount Back photo](images/speedddrive_herome5+bmg_back.jpg)
 
