@@ -1,3 +1,5 @@
+# Migrated
+This project/repository has been migrated to [Codeberg](https://codeberg.org/Squantor/various_3d_printer). Please file any issues and pullrequests there.
 # Collection of items for 3d printers
 This is a collection of various things useful for 3d printers. The printer where the part is for is usually named but if the name is generic that means it is generally applicable for any printer.
 ## Structure
